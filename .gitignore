@@ -1,0 +1,4 @@
+backend/bin
+backend/obj
+backend/.vs
+frontend/proj1/node_modules
