@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {

@@ -31,7 +31,10 @@ namespace backend
             services.AddCors();
             services.AddControllers();
             services.AddDbContext<UserContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-            
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My Project API",
+            Version="v1",
+            Description="API for myproject"
+            }); }); ;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +57,12 @@ namespace backend
             {
                 endpoints.MapControllers();
             });
-            
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Project API");
+            });
+
         }
     }
 }
