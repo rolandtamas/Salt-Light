@@ -5,10 +5,14 @@
 </head>
 
 <body>
-  <h3>{{title}}</h3>
+  <div class="navbar">
+    <app-navbar></app-navbar>
+  </div>
   <h4>This project is merely a tutorial to get the hang of ASP.NET + Angular</h4>
-  <a routerLink="/user" routerLinkActive="active">View users</a>
-  <router-outlet></router-outlet>
+  <router-outlet>
+
+
+  </router-outlet>
 
 </body>
 </html>
