@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\navbar"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\angular.json",
+  "SelectedNode": "\\src\\app",
   "PreviewInSolutionExplorer": false
 }

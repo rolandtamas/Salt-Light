@@ -1,1 +1,2 @@
-This is a test app written in ASP.NET + Angular + SQLite
+Hello. I have decided that I would create a blog(about all kinds of topics).
+I am using Angular for the frontend, ASP.NET for the backend and SQLite for database.
