@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\navbar"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\angular.json",
   "PreviewInSolutionExplorer": false
 }

@@ -1,1 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+.navbar-brand {
+  color:white;
+  font-family:Lemon/Milk;
+}
 
+.nav-link {
+  color: #d1d8e0;
+  font-family:Montserrat;
+}
