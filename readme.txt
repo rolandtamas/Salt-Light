@@ -6,7 +6,7 @@ ng new ___ -> creates a new Angular app
 
 install the following packages:
 	-Entity Framework Core , .Sqlite, .Design
-	-swashbuckle.SwaggerGen, .SwaggerUI
+	-swashbuckle.AspNetCore
 	-Microsoft.AspNetCore.Cors
 
 you must have
@@ -26,7 +26,7 @@ services.AddDbContext<UserContext>(x => x.UseSqlite(Configuration.GetConnectionS
 //don't forget to add the required imports for the upper tasks
 
 if you have created context and model, use the following command to add migrations
-	dotnet ef add migrations ___
+	dotnet ef add migrations migrations_name
 After that link to the database using
 	dotnet ef database update
 BOOM, you should have a table inside your database
